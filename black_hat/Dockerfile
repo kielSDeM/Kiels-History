@@ -17,4 +17,4 @@ RUN git clone https://github.com/KielDemarco/kiels-aws-boto3-repo.git \
     && cd kiels-aws-boto3-repo
 
 CMD ["python3", "./s3.py"]
-ENTRYPOINT ["python3"]
+ENTRYPOINT ["/bin/sh"]
